@@ -1,0 +1,61 @@
+.div_card {
+  text-align: center;
+  #Name_Giphy {
+    border-radius: 10px;
+    border: solid 3px;
+    border-color: rgba($color: blue, $alpha: 3);
+    height: 30px;
+    width: 300px;
+    background-color: pink;
+    font-size: 15px;
+    color: purple;
+    outline-color: red;
+    &:hover {
+      border-color: green;
+    }
+  }
+
+  #Search_Giph {
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 3px;
+    background-color: gray;
+    height: 40px;
+    width: 100px;
+    transition: all 0.4s ease;
+    &:hover {
+      background-color: pink;
+      color: purple;
+      border-color: rgba($color: red, $alpha: 3);
+      font-size: 15px;
+      text-transform: uppercase;
+      width: 150px;
+    }
+  }
+
+  #Remove_Giph {
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 3px;
+    background-color: yellow;
+    color: orangered;
+    border-color: red;
+    height: 40px;
+    width: 100px;
+    transition: all 0.4s ease;
+    &:hover {
+      background-color: orange;
+      border-color: rgba($color: red, $alpha: 3);
+      font-size: 15px;
+      text-transform: uppercase;
+      width: 150px;
+    }
+  }
+}
+
+.image {
+  .Image_GIF {
+    width: 190px !important;
+    height: 300px !important;
+  }
+}

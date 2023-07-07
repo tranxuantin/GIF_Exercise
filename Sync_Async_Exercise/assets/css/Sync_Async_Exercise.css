@@ -1,0 +1,57 @@
+.div_card {
+  text-align: center;
+}
+.div_card #Name_Giphy {
+  border-radius: 10px;
+  border: solid 3px;
+  border-color: blue;
+  height: 30px;
+  width: 300px;
+  background-color: pink;
+  font-size: 15px;
+  color: purple;
+  outline-color: red;
+}
+.div_card #Name_Giphy:hover {
+  border-color: green;
+}
+.div_card #Search_Giph {
+  cursor: pointer;
+  border-radius: 5px;
+  border: solid 3px;
+  background-color: gray;
+  height: 40px;
+  width: 100px;
+  transition: all 0.4s ease;
+}
+.div_card #Search_Giph:hover {
+  background-color: pink;
+  color: purple;
+  border-color: red;
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 150px;
+}
+.div_card #Remove_Giph {
+  cursor: pointer;
+  border-radius: 5px;
+  border: solid 3px;
+  background-color: yellow;
+  color: orangered;
+  border-color: red;
+  height: 40px;
+  width: 100px;
+  transition: all 0.4s ease;
+}
+.div_card #Remove_Giph:hover {
+  background-color: orange;
+  border-color: red;
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+.image .Image_GIF {
+  width: 190px !important;
+  height: 300px !important;
+}/*# sourceMappingURL=Sync_Async_Exercise.css.map */
